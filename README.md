@@ -1,9 +1,11 @@
-# Excluding Google John Smith Emails From Abandoned Cart Notifications
+# Excluding Googlebot From Abandoned Cart Emails
 
 ### Background
-Shopify store owners have been debating for months who is behind a flood of abandoned carts that appear to originate from Google.
+Shopify store owners have [been debating for months](https://community.shopify.com/c/Shopify-Discussion/John-Smith-From-Google-UTM-Google-Shopper-Creating-false/td-p/538519) who is behind a flood of abandoned carts that appear to originate from Google.
 
-The Wall Street Journal finally settled the debate when Google officially claimed responsibility for the bot.
+All of the abandoned carts use the name John Smith, a variety of gmail addresses, the address and phone number for Google Headquarters, and come from an IP address affiliated with Google.
+
+The [Wall Street Journal](https://www.wsj.com/articles/who-is-the-mystery-shopper-leaving-behind-all-those-online-shopping-carts-11593617464) finally settled the debate when Google officially claimed responsibility for the bot.
 
 ### Why It Matters
 Many ecommerce stores automatically send emails to shoppers who abandon their cart. This is so common in ecommerce that Shopify has a built-in feature for sending them. The John Smith email addresses are not valid, so all of these emails will bounce. Sending emails that bounce can harm your sender reputation and impact deliverability for ALL of your emails.
@@ -38,6 +40,6 @@ That's it!
 #### Why can't I just delete the Googlebot profiles from Klaviyo entirely?
 If you delete the profiles completely, Klaviyo will eventually re-sync them from Shopify and recreate the profiles. This will temporarily lower your profile count (and potentially your monthly bill), but it is only a temporary fix.
 #### Can't I just create a segment of Googlebot emails and exclude them from my email campaigns?
-Yes, you can and it will prevent you from sending emails to these invalid addresses. However, you will have to add flow filters to each of your automated email series and exclude them from every campaign, forever. This is both time-consuming and error-prone. You will still have active profiles for those addresses and potentially inflate your monthly bill.
+Yes, you can. Doing so will prevent you from sending emails to these invalid addresses. However, you will have to add flow filters to each of your automated email series and exclude them from every campaign, forever. This is both time-consuming and error-prone. You will still have active profiles for those addresses and potentially inflate your monthly bill.
 #### Isn't it possible that some bad actor is disguising their traffic as the Googlebot to crawl my store?
 Unfortunately yes, bad actors can use the fact that most ecommerce stores do not block the Googlebot to crawl your store. Attempting to block the Googlebot has the potential to harm your ability to rank in organic search results or advertise on Google Shopping. You will have to decide for yourself if cutting off those traffic sources is worth it. 
